@@ -22,8 +22,11 @@ public class day07 {
         System.out.println(param);
     }
 
-    // 返回值的方法
-    public static int method2() {
-        return 123;
+    // 返回值的方法,返回一个数组
+    public static int[] method2() {
+        return new int[]{1, 2, 3};
     }
+
+//    基本数据类型:数据值是存储在自己的空间中,
+//    引用数据类型:数据值是存储在其他空间中,自己空间中存储的是地址值
 }
