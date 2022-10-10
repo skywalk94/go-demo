@@ -23,13 +23,13 @@ public class day04 {
 
 //        另一种switch写法
         switch (value) {
-            case 1 -> {
+            /*case 1 -> {
                 System.out.println("值为1");
             }
             case 2 -> System.out.println("值为2"); //只有一行可省略大括号
             default -> {
                 System.out.println("值为" + value);
-            }
+            }*/
         }
 
         for (int i = 0; i < 10; i++) {
